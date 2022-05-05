@@ -48,4 +48,10 @@ class CalculadoraTest2 {
 	void testDividir5() {
 		assertTrue(Calculadora.dividir(6, 2)==3);	
 		}
+	
+	@Test
+	void testPar() {
+		assertTrue(Calculadora.esPar(2));
+		assertFalse(Calculadora.esPar(3));
+	}
 }
